@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <div className="navbar bg-base-100 flex justify-between">
       <a className="btn btn-ghost text-xl">La Coco Crypto Exchange</a>
-      {/* <span>{currentDateTime}</span> */}
+      <span>{currentDateTime}</span>
     </div>
   );
 }
